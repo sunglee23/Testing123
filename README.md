@@ -1,84 +1,168 @@
-<h1>Hi, I'm Sung! </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sung Lee | Business Analyst & Technical Writer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0D3B66;
+      --accent: #FAF0CA;
+      --highlight: #F4D35E;
+      --dark: #1E1E1E;
+      --white: #ffffff;
+    }
 
-<h2>👨‍💻 Business Analyst and Technical Writer</h2>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-I'm a strategic Business Analyst with experience delivering scalable, compliant solutions for federal agencies, including IRS and DoD. Proven in aligning technical delivery with mission objectives, driving workflow optimization, and authoring high-impact documentation under Agile frameworks. Known for enhancing service delivery, reducing operational friction, and supporting successful federal proposals.
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--white);
+      color: var(--dark);
+      line-height: 1.6;
+    }
 
+    header {
+      background-color: var(--primary);
+      color: var(--white);
+      padding: 2rem 1rem;
+      text-align: center;
+    }
 
-<br>
+    header h1 {
+      font-size: 2.5rem;
+    }
 
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
 
-<section class="competencies fade-in">
-  <div class="container">
-    <h2>🧩 Core Competencies</h2>
-    <table class="competency-table">
-      <thead>
-        <tr>
-          <th>💼 Skill Area</th>
-          <th>✅ Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>🔍 Business Analysis</strong></td>
-          <td>Experienced in requirements gathering, stakeholder interviews, and process mapping to align technology with business goals.</td>
-        </tr>
-        <tr>
-          <td><strong>📝 Technical Writing</strong></td>
-          <td>Creates clear, user-friendly SOPs, manuals, and technical guides for cross-functional teams and end-users.</td>
-        </tr>
-        <tr>
-          <td><strong>⚙️ Holistic Thinking</strong></td>
-          <td>Understands the relationships between people, processes, and platforms — ensuring scalable, connected solutions.</td>
-        </tr>
-        <tr>
-          <td><strong>🛠 Platforms</strong></td>
-          <td>Proficient in Jira, Confluence, ServiceNow, Git, Microsoft 365 — and quick to adapt to new technologies.</td>
-        </tr>
-        <tr>
-          <td><strong>💬 Communication</strong></td>
-          <td>Strong communicator with the ability to translate complex information into clear, actionable content for all audiences.</td>
-        </tr>
-        <tr>
-          <td><strong>🎯 Meticulousness</strong></td>
-          <td>Committed to accuracy and clarity — in documentation, reporting, and all aspects of work delivery.</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</section>
+    nav {
+      background-color: var(--highlight);
+      padding: 1rem;
+      text-align: center;
+    }
 
+    nav a {
+      color: var(--dark);
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
+    section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
 
+    section h2 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+      border-bottom: 2px solid var(--highlight);
+      display: inline-block;
+    }
 
-<h2>Certifications & Training </h2>
+    .profile-img {
+      width: 180px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
 
-<ul>
-  <li>ITIL V3 Foundation</li>
-  <li>Microsoft Certified:  Specialist, MCP, MCTS</li>
-  <li>Section 508 Accessibility Training</li>
-  <li>Agile Fundamentals & Scrum Master overview </li>
-</ul>
+    .about, .skills, .projects, .contact {
+      background-color: var(--accent);
+      border-radius: 10px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
 
-<h2>Education</h2>
+    ul {
+      list-style: none;
+    }
 
+    ul li::before {
+      content: "✓ ";
+      color: var(--primary);
+    }
 
-M.S.in Instructional System Design, George Mason University, 2014;
-Applied in developing 508-compliant training for IRS and DoD users
-B.S.in Business Management, University of Phoenix, 2011  
+    footer {
+      background-color: var(--primary);
+      color: var(--white);
+      text-align: center;
+      padding: 2rem 1rem;
+    }
 
+    a.button {
+      display: inline-block;
+      background: var(--primary);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
 
-<h2> 🤳 Connect with me:</h2>
+    a.button:hover {
+      background: #092c4c;
+    }
+  </style>
+</head>
+<body>
 
-<p align="left">
-  <a href="mailto:sung.m.lee23@gmail.com"><img src="https://img.shields.io/badge/email-contact-red?style=for-the-badge&logo=gmail" alt="Email"/></a>
-  <a href="https://www.linkedin.com/in/sungmlee" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/></a>
-  <a href="https://github.com/sunglee23"><img src="https://img.shields.io/badge/GitHub-Profile-000?style=for-the-badge&logo=github" alt="GitHub"/></a>
-  <a href="Sung_Lee_Resume_New_2025.pdf" target="_blank">
-  <img src="https://img.shields.io/badge/Resume-Download-green?style=for-the-badge&logo=read-the-docs" alt="Resume"/>
-</a>
+  <header>
+    <img src="Profile1.jpg" alt="Sung Lee Headshot" class="profile-img">
+    <h1>Hi, I'm Sung Lee</h1>
+    <p>Business Analyst & Technical Writer | Bristow, VA | IRS MBI Clearance</p>
+  </header>
 
-</p>
-  
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
+  <section id="about" class="about">
+    <h2>👋 About Me</h2>
+    <p>I am a Business Analyst and Technical Writer with expertise in system documentation, Agile workflows, and client communications. With a strong foundation in both technical analysis and writing, I bring clarity and structure to complex business requirements.</p>
+  </section>
 
+  <section id="skills" class="skills">
+    <h2>🧠 Core Skills</h2>
+    <ul>
+      <li>Business Process Modeling (BPMN)</li>
+      <li>Agile/Scrum Facilitation</li>
+      <li>Technical Documentation (SOPs, User Guides, APIs)</li>
+      <li>Tools: Jira, Confluence, MS Visio, ServiceNow</li>
+      <li>Client-facing Communication & Stakeholder Engagement</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>🚀 Projects</h2>
+    <ul>
+      <li><strong>IRS Modernization:</strong> Led requirement sessions and delivered technical documents under federal compliance standards.</li>
+      <li><strong>System Integration Docs:</strong> Developed end-to-end SOPs and system architecture diagrams.</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>📬 Contact</h2>
+    <p>Let's connect and discuss how I can help your team grow.</p>
+    <p>Email: <a href="mailto:sung.m.lee23@gmail.com">sung.m.lee23@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sungmlee" target="_blank">linkedin.com/in/sungmlee</a></p>
+    <a class="button" href="Sung_Lee_Resume_New_2025.pdf" download>📄 Download My Resume</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sung Lee. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
